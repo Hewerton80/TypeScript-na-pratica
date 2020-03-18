@@ -31,7 +31,7 @@ e seta-la:
 
 "outDir": "./dist",
 
-isso fará com que os arquivos .js sejam gerados na oasta "dist"
+isso fará com que os arquivos .js sejam gerados na pasta "dist"
 
 ## Para trasnpilar os arquivos e executa-los de forma automática
 
@@ -49,7 +49,7 @@ Adicionar no arquivo package.json:
   .
 ```
 
-Agora para execuar a plicação:
+Agora basta executar:
 
 ```sh
   yarn dev

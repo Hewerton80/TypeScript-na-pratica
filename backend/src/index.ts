@@ -1,11 +1,11 @@
 import express from "express";
+import cors from "cors";
+import routes from "./routes";
 
-const app = express()
-
-app.get("/",(req,res)=>{
-    res.send("Hello, world!")
-})
+const app = express();
+app.use(cors())
+app.use(routes);
 
 app.listen(3001,()=>{
-    console.log("listen on port 3001")
+    console.log("\nlisten on port 3001\n")
 })
